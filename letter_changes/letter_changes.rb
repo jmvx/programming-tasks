@@ -10,6 +10,7 @@ end
 
 # loops over each character in the string, increments each letter, and 
 # changes vowels to uppercase
+# FIXME: z --> Aa
 def letter_changes(sentence)
   i = 0
   sentence.each_char do |c|
@@ -24,5 +25,5 @@ def letter_changes(sentence)
   return sentence
 end
 
-sentence = "fun times!"
+sentence = "fun times!z"
 puts letter_changes(sentence)
